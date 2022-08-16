@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Registration</title>
+
+    <style>
+        body {
+            background: rgb(219, 205, 200);
+        }
+        
+        table {
+            width: 50%;
+            margin-left: 25%;
+            padding: 40px;
+            box-shadow: 3px 5px 5px 5px rgb(0, 255, 179);
+            margin-top: 5%;
+            background-color: rgb(18, 191, 235);
+            padding-right: 2%;
+            border-radius: 0 10px;
+        }
+        
+        h1 {
+            color: rgb(175, 8, 167);
+            text-align: center;
+        }
+        
+        input[type="text"],
+        textarea
+         {
+            width: 100%;
+            padding: 5px;
+        }
+        select
+        {
+            width:103%;
+            padding: 5px;
+        }
+        
+        input[type="submit"] {
+            width:100%;
+            padding: 5px 100px;
+            background: rgb(236, 195, 9);
+            color: rgb(3, 4, 37);
+            margin-top: 5%;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+<form action= "save" method="post" >
+    <table>
+           <tr>
+         	   <td colspan="2">
+                  <h1>User Registration</h1>
+               </td>
+           </tr>
+           <tr>
+                <td><input type="text" name="userid" placeholder="Enter Userid "></td>
+           </tr>
+           <tr>
+                <td><input type="text" name="name" placeholder="Enter name"></td>
+           </tr>
+           <tr>
+                <td><input type="text" name="email" placeholder="Enter email "></td>
+           </tr>
+           <tr>
+                <td><input type="text" name="address" placeholder="Enter address"></td>
+           </tr>
+           
+            <tr>
+                <td><input type="text" name="password" placeholder="Enter Password"></td>
+            </tr>
+      
+        <tr>
+            <td colspan="2" align="centre">
+                <input type="submit" value="Register">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+</html>
